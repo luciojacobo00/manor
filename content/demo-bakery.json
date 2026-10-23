@@ -1,0 +1,36 @@
+{
+  "company": {
+    "name": "Harbor & Pine Bakery",
+    "tagline": "Sourdough, pastries, and coffee since 2019",
+    "logo": { "src": "/logo.png", "alt": "Harbor & Pine logo", "showName": true },
+    "description": "A neighborhood bakery baking everything from scratch every morning.",
+    "yearFounded": 2019
+  },
+  "contact": {
+    "phone": "(555) 010-2040",
+    "email": "hello@example.com",
+    "address": { "city": "Portland", "state": "ME" },
+    "hours": [
+      { "days": "Tuesday – Friday", "time": "7:00 AM – 3:00 PM" },
+      { "days": "Weekends", "time": "8:00 AM – 2:00 PM" }
+    ]
+  },
+  "nav": [
+    { "label": "Menu", "href": "#menu" },
+    { "label": "Visit", "href": "#contact" }
+  ],
+  "hero": {
+    "heading": "Bread worth getting up early for",
+    "subheading": "Naturally leavened loaves, laminated pastries, and a strong cup of coffee, a block from the water.",
+    "image": "hero.jpg",
+    "primaryCta": { "label": "See the menu", "href": "#menu" }
+  },
+  "services": {
+    "heading": "Menu",
+    "items": [
+      { "title": "Country sourdough", "description": "Our everyday loaf, 36-hour ferment.", "features": ["Whole loaf", "Half loaf"], "startingAt": "$9" },
+      { "title": "Croissants", "description": "Butter, almond, and ham & gruyère.", "features": ["Baked hourly until noon"], "startingAt": "$4.50" }
+    ]
+  },
+  "theme": { "background": "#fbf8f3", "surface": "#ffffff", "text": "#2a2420", "accent": "#b5652b", "accentDark": "#8e4c1f" }
+}

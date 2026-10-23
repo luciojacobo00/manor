@@ -1,0 +1,10 @@
+{
+  "sites": [
+    {
+      "id": "demo-bakery",
+      "name": "Harbor & Pine Bakery (demo)",
+      "previewUrl": "",
+      "storage": { "type": "local", "path": "content/demo-bakery.json" }
+    }
+  ]
+}
