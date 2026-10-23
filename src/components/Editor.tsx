@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { labelFor } from '@/lib/fields';
 import type { Json, Snapshot } from '@/lib/storage';
 import Field from './Field';
@@ -11,9 +11,10 @@ type Obj = { [key: string]: Json };
 interface Props {
   site: { id: string; name: string; previewUrl: string };
   initial: Snapshot;
+  signOut: ReactNode;
 }
 
-export default function Editor({ site, initial }: Props) {
+export default function Editor({ site, initial, signOut }: Props) {
   const [saved, setSaved] = useState(initial);
   const [draft, setDraft] = useState<Obj>(initial.content as Obj);
   const sections = Object.keys(saved.content as Obj);
@@ -47,6 +48,7 @@ export default function Editor({ site, initial }: Props) {
             </button>
           ))}
         </nav>
+        {signOut}
       </aside>
 
       <main className="form-pane">
