@@ -73,3 +73,10 @@ button:disabled { opacity: 0.45; cursor: default; }
   .sidebar nav { display: flex; flex-wrap: wrap; }
   .preview { display: none; }
 }
+
+.home-header { display: flex; align-items: center; justify-content: space-between; }
+.login { max-width: 360px; margin: 96px auto; padding: 0 16px; }
+.login h1 { color: var(--accent); }
+.login .primary { justify-self: start; }
+.sidebar .sign-out { background: none; border: 0; color: var(--muted); font-size: 13px; padding: 8px; margin-top: 20px; }
+.sidebar .sign-out:hover { color: var(--text); }

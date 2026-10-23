@@ -3,6 +3,7 @@
     {
       "id": "demo-bakery",
       "name": "Harbor & Pine Bakery (demo)",
+      "companyId": "harbor-pine",
       "previewUrl": "",
       "storage": { "type": "local", "path": "content/demo-bakery.json" }
     }
